@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B72B161C49290600C000E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B72B151C49290600C000E8 /* main.m */; };
+		E9B72B191C49290600C000E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B72B181C49290600C000E8 /* AppDelegate.m */; };
+		E9B72B1C1C49290600C000E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B72B1B1C49290600C000E8 /* ViewController.m */; };
+		E9B72B1F1C49290600C000E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B72B1D1C49290600C000E8 /* Main.storyboard */; };
+		E9B72B211C49290600C000E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B72B201C49290600C000E8 /* Assets.xcassets */; };
+		E9B72B241C49290600C000E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B72B221C49290600C000E8 /* LaunchScreen.storyboard */; };
+		E9B72B2F1C49290600C000E8 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B72B2E1C49290600C000E8 /* _______Tests.m */; };
+		E9B72B3A1C49290600C000E8 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B72B391C49290600C000E8 /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B72B2B1C49290600C000E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B72B091C49290600C000E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B72B101C49290600C000E8;
+			remoteInfo = "实现线程的同步";
+		};
+		E9B72B361C49290600C000E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B72B091C49290600C000E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B72B101C49290600C000E8;
+			remoteInfo = "实现线程的同步";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9B72B111C49290600C000E8 /* 实现线程的同步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实现线程的同步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B72B151C49290600C000E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9B72B171C49290600C000E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9B72B181C49290600C000E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9B72B1A1C49290600C000E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9B72B1B1C49290600C000E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9B72B1E1C49290600C000E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B72B201C49290600C000E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9B72B231C49290600C000E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9B72B251C49290600C000E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B72B2A1C49290600C000E8 /* 实现线程的同步Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现线程的同步Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B72B2E1C49290600C000E8 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		E9B72B301C49290600C000E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B72B351C49290600C000E8 /* 实现线程的同步UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现线程的同步UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B72B391C49290600C000E8 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		E9B72B3B1C49290600C000E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B72B0E1C49290600C000E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B271C49290600C000E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B321C49290600C000E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B72B081C49290600C000E8 = {
+			isa = PBXGroup;
+			children = (
+				E9B72B131C49290600C000E8 /* 实现线程的同步 */,
+				E9B72B2D1C49290600C000E8 /* 实现线程的同步Tests */,
+				E9B72B381C49290600C000E8 /* 实现线程的同步UITests */,
+				E9B72B121C49290600C000E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B72B121C49290600C000E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B72B111C49290600C000E8 /* 实现线程的同步.app */,
+				E9B72B2A1C49290600C000E8 /* 实现线程的同步Tests.xctest */,
+				E9B72B351C49290600C000E8 /* 实现线程的同步UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B72B131C49290600C000E8 /* 实现线程的同步 */ = {
+			isa = PBXGroup;
+			children = (
+				E9B72B171C49290600C000E8 /* AppDelegate.h */,
+				E9B72B181C49290600C000E8 /* AppDelegate.m */,
+				E9B72B1A1C49290600C000E8 /* ViewController.h */,
+				E9B72B1B1C49290600C000E8 /* ViewController.m */,
+				E9B72B1D1C49290600C000E8 /* Main.storyboard */,
+				E9B72B201C49290600C000E8 /* Assets.xcassets */,
+				E9B72B221C49290600C000E8 /* LaunchScreen.storyboard */,
+				E9B72B251C49290600C000E8 /* Info.plist */,
+				E9B72B141C49290600C000E8 /* Supporting Files */,
+			);
+			path = "实现线程的同步";
+			sourceTree = "<group>";
+		};
+		E9B72B141C49290600C000E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B72B151C49290600C000E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B72B2D1C49290600C000E8 /* 实现线程的同步Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B72B2E1C49290600C000E8 /* _______Tests.m */,
+				E9B72B301C49290600C000E8 /* Info.plist */,
+			);
+			path = "实现线程的同步Tests";
+			sourceTree = "<group>";
+		};
+		E9B72B381C49290600C000E8 /* 实现线程的同步UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B72B391C49290600C000E8 /* _______UITests.m */,
+				E9B72B3B1C49290600C000E8 /* Info.plist */,
+			);
+			path = "实现线程的同步UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B72B101C49290600C000E8 /* 实现线程的同步 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B72B3E1C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步" */;
+			buildPhases = (
+				E9B72B0D1C49290600C000E8 /* Sources */,
+				E9B72B0E1C49290600C000E8 /* Frameworks */,
+				E9B72B0F1C49290600C000E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "实现线程的同步";
+			productName = "实现线程的同步";
+			productReference = E9B72B111C49290600C000E8 /* 实现线程的同步.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B72B291C49290600C000E8 /* 实现线程的同步Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B72B411C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步Tests" */;
+			buildPhases = (
+				E9B72B261C49290600C000E8 /* Sources */,
+				E9B72B271C49290600C000E8 /* Frameworks */,
+				E9B72B281C49290600C000E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B72B2C1C49290600C000E8 /* PBXTargetDependency */,
+			);
+			name = "实现线程的同步Tests";
+			productName = "实现线程的同步Tests";
+			productReference = E9B72B2A1C49290600C000E8 /* 实现线程的同步Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9B72B341C49290600C000E8 /* 实现线程的同步UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B72B441C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步UITests" */;
+			buildPhases = (
+				E9B72B311C49290600C000E8 /* Sources */,
+				E9B72B321C49290600C000E8 /* Frameworks */,
+				E9B72B331C49290600C000E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B72B371C49290600C000E8 /* PBXTargetDependency */,
+			);
+			name = "实现线程的同步UITests";
+			productName = "实现线程的同步UITests";
+			productReference = E9B72B351C49290600C000E8 /* 实现线程的同步UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B72B091C49290600C000E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lx;
+				TargetAttributes = {
+					E9B72B101C49290600C000E8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E9B72B291C49290600C000E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E9B72B101C49290600C000E8;
+					};
+					E9B72B341C49290600C000E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E9B72B101C49290600C000E8;
+					};
+				};
+			};
+			buildConfigurationList = E9B72B0C1C49290600C000E8 /* Build configuration list for PBXProject "实现线程的同步" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B72B081C49290600C000E8;
+			productRefGroup = E9B72B121C49290600C000E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B72B101C49290600C000E8 /* 实现线程的同步 */,
+				E9B72B291C49290600C000E8 /* 实现线程的同步Tests */,
+				E9B72B341C49290600C000E8 /* 实现线程的同步UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B72B0F1C49290600C000E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B72B241C49290600C000E8 /* LaunchScreen.storyboard in Resources */,
+				E9B72B211C49290600C000E8 /* Assets.xcassets in Resources */,
+				E9B72B1F1C49290600C000E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B281C49290600C000E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B331C49290600C000E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B72B0D1C49290600C000E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B72B1C1C49290600C000E8 /* ViewController.m in Sources */,
+				E9B72B191C49290600C000E8 /* AppDelegate.m in Sources */,
+				E9B72B161C49290600C000E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B261C49290600C000E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B72B2F1C49290600C000E8 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B72B311C49290600C000E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B72B3A1C49290600C000E8 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B72B2C1C49290600C000E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B72B101C49290600C000E8 /* 实现线程的同步 */;
+			targetProxy = E9B72B2B1C49290600C000E8 /* PBXContainerItemProxy */;
+		};
+		E9B72B371C49290600C000E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B72B101C49290600C000E8 /* 实现线程的同步 */;
+			targetProxy = E9B72B361C49290600C000E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B72B1D1C49290600C000E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B72B1E1C49290600C000E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B72B221C49290600C000E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B72B231C49290600C000E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B72B3C1C49290600C000E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9B72B3D1C49290600C000E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B72B3F1C49290600C000E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "实现线程的同步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9B72B401C49290600C000E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "实现线程的同步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9B72B421C49290600C000E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "实现线程的同步Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实现线程的同步.app/实现线程的同步";
+			};
+			name = Debug;
+		};
+		E9B72B431C49290600C000E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "实现线程的同步Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实现线程的同步.app/实现线程的同步";
+			};
+			name = Release;
+		};
+		E9B72B451C49290600C000E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "实现线程的同步UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "实现线程的同步";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E9B72B461C49290600C000E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "实现线程的同步UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beiwoIT.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "实现线程的同步";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B72B0C1C49290600C000E8 /* Build configuration list for PBXProject "实现线程的同步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B72B3C1C49290600C000E8 /* Debug */,
+				E9B72B3D1C49290600C000E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B72B3E1C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B72B3F1C49290600C000E8 /* Debug */,
+				E9B72B401C49290600C000E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9B72B411C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B72B421C49290600C000E8 /* Debug */,
+				E9B72B431C49290600C000E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9B72B441C49290600C000E8 /* Build configuration list for PBXNativeTarget "实现线程的同步UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B72B451C49290600C000E8 /* Debug */,
+				E9B72B461C49290600C000E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B72B091C49290600C000E8 /* Project object */;
+}
